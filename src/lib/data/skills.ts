@@ -44,15 +44,15 @@ export const items = [
 		name: 'Javascript',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.TypeScript,
-		name: 'Typescript',
-		category: 'pro-lang'
-	}),
+	// defineSkill({
+	// 	slug: 'ts',
+	// 	color: 'blue',
+	// 	description:
+	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+	// 	logo: Assets.TypeScript,
+	// 	name: 'Typescript',
+	// 	category: 'pro-lang'
+	// }),
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
@@ -71,15 +71,15 @@ export const items = [
 		name: 'HTML',
 		category: 'markup-style'
 	}),
-	defineSkill({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
-		category: 'markup-style'
-	}),
+	// defineSkill({
+	// 	slug: 'sass',
+	// 	color: 'pink',
+	// 	description:
+	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+	// 	logo: Assets.Sass,
+	// 	name: 'Sass',
+	// 	category: 'markup-style'
+	// }),
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
@@ -89,13 +89,49 @@ export const items = [
 		name: 'React Js',
 		category: 'library'
 	}),
+	// defineSkill({
+	// 	slug: 'svelte',
+	// 	color: 'orange',
+	// 	description: svelte,
+	// 	logo: Assets.Svelte,
+	// 	name: 'Svelte',
+	// 	category: 'library'
+	// }),
 	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
+		slug: 'mongodb',
+		color: 'green',
+		description:
+			'MongoDB is a document-oriented NoSQL database used for high-volume data storage. It stores data in JSON-like documents with dynamic schemas, making data integration faster and easier for developers.',
+		logo: Assets.MongoDB,
+		name: 'MongoDB',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		description:
+			'Node.js is a JavaScript runtime built on Chrome\'s V8 JavaScript engine. It allows developers to build scalable backend services using JavaScript, making it popular for full-stack development.',
+		logo: Assets.NodeJs,
+		name: 'Node.js',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'tailwind',
+		color: 'teal',
+		description:
+			'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It allows developers to apply styles directly in HTML using pre-defined classes, promoting fast and consistent design.',
+		logo: Assets.Tailwind,
+		name: 'Tailwind CSS',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'expressjs',
+		color: 'gray',
+		description:
+			'Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It’s widely used to create RESTful APIs.',
+		logo: Assets.ExpressJs,
+		name: 'Express.js',
+		category: 'framework'
 	})
 ] as const;
 

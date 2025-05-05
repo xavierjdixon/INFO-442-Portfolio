@@ -7,32 +7,33 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		'Digital Fridge is a full-stack web application designed to help users manage their food inventory and reduce waste. Built in a team setting for INFO 442, the app allows users to add, categorize, and track food items in their virtual fridge. Our focus was not only on technical implementation using MongoDB, Express.js, Node.js, and React, but also on building a psychologically safe and collaborative team environment throughout the project lifecycle.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		'A full-stack web app for managing fridge inventory and reducing food waste, built collaboratively with a focus on team dynamics and value-aligned development.',
+		links: [{ to: 'https://github.com/ryancho7/Digital-Fridge', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Digit Fridge',
 		period: {
-			from: new Date()
+			from: new Date('2025-04-16'),
+			to: new Date('2025-04-30')
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
+		skills: getSkills('js', 'reactjs', 'mongodb', 'nodejs', 'expressjs', 'tailwind'),
 		type: 'Website Template'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Coming Soon...',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'Coming Soon...',
+		links: [{ to: 'https://github.com/xavierjdixon', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Coming Soon...',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills(),
 		type: 'Website Template',
 		screenshots: [
 			{
