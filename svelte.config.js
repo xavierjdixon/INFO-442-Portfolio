@@ -1,12 +1,7 @@
-import adapter from '@sveltejs/adapter-static';
+import vercel from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = '/slick-portfolio-svelte';
-
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
-	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 	vitePlugin: {
 		inspector: {
@@ -14,7 +9,7 @@ const config = {
 		}
 	},
 	kit: {
-		adapter: adapter({ fallback: '404.html' }),
+		adapter: vercel(),
 		alias: {
 			$lib: './src/lib',
 			'@data': './src/lib/data',
@@ -24,7 +19,7 @@ const config = {
 			'@utils': './src/lib/utils'
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? base : ''
+			base: ''
 		}
 	}
 };
