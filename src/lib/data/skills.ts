@@ -53,15 +53,15 @@ export const items = [
 	// 	name: 'Typescript',
 	// 	category: 'pro-lang'
 	// }),
-	defineSkill({
-		slug: 'css',
-		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.CSS,
-		name: 'CSS',
-		category: 'markup-style'
-	}),
+	// defineSkill({
+	// 	slug: 'css',
+	// 	color: 'blue',
+	// 	description:
+	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+	// 	logo: Assets.CSS,
+	// 	name: 'CSS',
+	// 	category: 'markup-style'
+	// }),
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
@@ -123,6 +123,15 @@ export const items = [
 		logo: Assets.Tailwind,
 		name: 'Tailwind CSS',
 		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'figma',
+		color: 'purple',
+		description:
+			'Figma is a collaborative interface design tool used for UI/UX prototyping, wireframing, and visual design. It enables teams to design and iterate in real-time with ease.',
+		logo: Assets.Figma,
+		name: 'Figma',
+		category: 'design'
 	}),
 	defineSkill({
 		slug: 'expressjs',

@@ -4,62 +4,53 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'digital-fridge',
 		color: '#5e95e3',
 		description:
-		'Digital Fridge is a full-stack web application designed to help users manage their food inventory and reduce waste. Built in a team setting for INFO 442, the app allows users to add, categorize, and track food items in their virtual fridge. Our focus was not only on technical implementation using MongoDB, Express.js, Node.js, and React, but also on building a psychologically safe and collaborative team environment throughout the project lifecycle.',
+			'This project was my first experience building a full-stack application from scratch. I stepped out of my comfort zone and worked with MongoDB, Express.js, React, Node.js, and Tailwind—technologies I had to (re)learn along the way. Even though I wasn’t passionate about the "digital fridge" concept itself, this project pushed me to develop technical skills, understand team collaboration in depth, and explore user-focused design. I contributed to the entire stack, designed a clean interface, and built functionality to help users track what’s in their fridge and reduce waste. I also learned how to organize team work, communicate progress, and support others. I frequently helped my teammates work through both frontend and backend blockers, and adapted to changes in requirements mid-project by making major updates to our backend. This experience helped me realize how important it is to build projects that reflect personal values and meaning. I now better understand what psychological safety means in practice—especially how shared respect, clarity in delegation, and team alignment can make or break a technical project.',
 		shortDescription:
-		'A full-stack web app for managing fridge inventory and reducing food waste, built collaboratively with a focus on team dynamics and value-aligned development.',
+			'A MERN-stack fridge management app built in a team setting, focused on learning full-stack development and exploring team dynamics.',
 		links: [{ to: 'https://github.com/ryancho7/Digital-Fridge', label: 'GitHub' }],
 		logo: Assets.ReactJs,
-		name: 'Digit Fridge',
+		name: 'Digital Fridge',
 		period: {
-			from: new Date('2025-04-16'),
-			to: new Date('2025-04-30')
+			from: new Date('2025-03-30'),
+			to: new Date('2025-04-29')
 		},
 		skills: getSkills('js', 'reactjs', 'mongodb', 'nodejs', 'expressjs', 'tailwind'),
-		type: 'Website Template'
+		type: 'Team Project',
+		screenshots: [
+			{ src: '/logos/screenshot-fridge-login.png', label: 'Login Page' },
+			{ src: '/logos/screenshot-fridge-dashboard.png', label: 'User Dashboard' },
+			{ src: '/logos/screenshot-fridge-add.png', label: 'Add Item Modal' },
+			{ src: '/logos/screenshot-fridge-current.png', label: 'Current Fridge View' }
+		]
 	},
 	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
+		slug: 'transit-kiosk',
+		color: '#3A7CA5',
+		name: 'Interactive Transit Kiosk',
 		description:
-			'Coming Soon...',
+			'This project meant a lot to me. I wanted to create something that reflected my values and had real-world impact—so I focused on improving Seattle’s public transportation experience. Unlike my first project, this one didn’t require any coding. Instead, I worked entirely in Figma to design a kiosk system that would help people—especially those without reliable phone access—navigate public transit more easily. I created detailed maps, signage systems, and route visualizations to show alternate travel options, transit delays, and detours. I spent hours mapping Seattle’s streets, designing UI layouts, and making sure everything was both clear and accessible. I also proposed the project concept, helped organize responsibilities, and collaborated closely with a teammate on the Figma design. The rest of the team contributed to motion graphics and presentation slides. This project let me lean into user-centered design and taught me how psychological safety and good collaboration lead to stronger outcomes.',
 		shortDescription:
-			'Coming Soon...',
-		links: [{ to: 'https://github.com/xavierjdixon', label: 'GitHub' }],
-		logo: Assets.ReactJs,
-		name: 'Coming Soon...',
+			'A Figma-based design project for an interactive kiosk system that improves public transit access in Seattle through clear maps, signage, and alternate travel route options.',
+		logo: Assets.Figma,
 		period: {
-			from: new Date()
+			from: new Date('2025-04-31'),
+			to: new Date('2025-05-31')
 		},
-		skills: getSkills(),
-		type: 'Website Template',
+		links: [
+			{ to: 'https://www.figma.com/design/kl4mLnM0su4Ec0V31DSfj9/INFO-442-Project-2?node-id=0-1&t=bC9FzjENomHhCUbq-1', label: 'Figma Design' },
+			{ to: 'https://youtu.be/epG7aVKWHHI', label: 'Motion Demo Video' },
+			{ to: 'https://www.canva.com/design/DAGoSyPc0TQ/w6DSiVEbdokrYI5rzo4Fig/edit?utm_content=DAGoSyPc0TQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', label: 'Slides' }
+		],
+		skills: getSkills('figma'),
+		type: 'Team Project',
 		screenshots: [
-			{
-				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '2',
-				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '3',
-				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '4',
-				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '5',
-				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '6',
-				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			}
+			{ src: '/logos/screenshot-kiosk-map.png', label: 'Transit Map' },
+			{ src: '/logos/screenshot-kiosk-signage.png', label: 'Signage & Alerts' },
+			{ src: '/logos/screenshot-kiosk-routes.png', label: 'Bus Route View' },
+			{ src: '/logos/screenshot-kiosk-options.png', label: 'Alternate Travel Options' }
 		]
 	}
 ];
